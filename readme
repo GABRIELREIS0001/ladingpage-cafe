@@ -1,36 +1,57 @@
-# landing page Café ☕
+# LandPage Café
 
-Uma landing page moderna e responsiva para cafeterias, criada para apresentar o cardápio, ambiente e diferenciais do seu café.
+Uma landing page moderna e envolvente para cafeterias, focada em atrair clientes e apresentar o cardápio de forma elegante.
 
-## 🚀 Tecnologias Utilizadas
+## Tabela de Conteúdo
+
+- [Recursos / Funcionalidades](#recursos--funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Rodar o Projeto Localmente](#como-rodar-o-projeto-localmente)
+- [Versão Online](#versão-online)
+- [Melhorias Futuras](#melhorias-futuras)
+- [Autor / Contato](#autor--contato)
+- [Licença](#licença)
+
+## Recursos / Funcionalidades
+
+- Layout responsivo para dispositivos móveis e desktop
+- Seção de cardápio com destaques
+- Formulário de contato integrado
+- Integração com redes sociais
+- Animações suaves e modernas
+
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 💻 Como rodar o projeto localmente
+## Como Rodar o Projeto Localmente
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/landPage-Cafe.git
-    ```
-2. Acesse a pasta do projeto:
-    ```bash
-    cd landPage-Cafe
-    ```
-3. Abra o arquivo `index.html` no seu navegador.
+```bash
+git clone https://github.com/seu-usuario/landPage-Cafe.git
+cd landPage-Cafe
+npm install
+npm start
+```
+Acesse `http://localhost:3000` no navegador.
 
-## 📸 Screenshots
+## Versão Online
 
-![Screenshot da Home](../landPage-Café/assets/capturaHome.png)
-![Screenshot do Cardápio](../landPage-Café/assets/capturaMenu.png)
+[Veja a versão online aqui](https://seu-deploy.com)
 
-*Adicione seus próprios screenshots ou GIFs na pasta `assets` e atualize os caminhos acima.*
+## Melhorias Futuras
 
-## 🌐 Link para o projeto online
+- Adicionar sistema de reservas online
+- Implementar dark mode
+- Otimizar performance para SEO
 
-Acesse a landing page em: [https://seu-usuario.github.io/landPage-Cafe/](https://seu-usuario.github.io/landPage-Cafe/)
+## Autor / Contato
 
----
+Gabriel Souza  
+[LinkedIn](https://www.linkedin.com/in/seu-perfil)  
+Email: gabriel@email.com
 
-Sinta-se à vontade para contribuir ou sugerir melhorias!
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
