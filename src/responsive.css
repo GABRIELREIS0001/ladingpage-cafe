@@ -1,0 +1,121 @@
+/* MEDIA QUERIES PARA RESPONSIVIDADE */
+/* ------------------------------------- */
+
+@media (max-width: 991px) { /* Para tablets e telas menores */
+    html {
+        font-size: 9px; /* Reduz a fonte base para tablets */
+    }
+
+    .header section {
+        padding: 1rem 2rem; /* Ajusta o padding do header */
+    }
+
+    .home-container {
+        justify-content: center; /* Centraliza o conteúdo da home */
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .content {
+        max-width: 80%; /* Ocupa mais largura em telas menores */
+        text-align: center;
+    }
+
+    .content h3 {
+        font-size: 5rem;
+    }
+
+    .about .row {
+        flex-direction: column; /* Empilha a imagem e o conteúdo */
+        text-align: center;
+    }
+
+    .about .row .content {
+        padding: 0; /* Remove padding extra no conteúdo empilhado */
+    }
+}
+
+@media (max-width: 768px) { /* Para celulares */
+    html {
+        font-size: 8px; /* Reduz a fonte base para celulares */
+    }
+
+    .header section {
+        padding: 1rem 1.5rem;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%; /* Abaixo do header */
+        left: 0;
+        right: 0;
+        background-color: var(--black);
+        border-top: var(--border);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); /* Escondido por padrão */
+        opacity: 0;
+        pointer-events: none;
+        transition: clip-path 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Visível */
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 1.5rem;
+        padding: 1rem;
+        font-size: 2.2rem;
+        text-align: center;
+        background-color: #222;
+        border-radius: 0.5rem;
+    }
+
+    .icons {
+        display: none; /* Esconde os ícones de busca e carrinho no mobile, ou você pode reposicioná-los */
+    }
+
+    .menu-toggle {
+        display: block; /* Mostra o ícone do menu no mobile */
+    }
+
+    .home-container .content h3 {
+        font-size: 4rem; /* Reduz o tamanho do título principal */
+    }
+
+    .home-container .content p {
+        font-size: 1.6rem; /* Reduz o tamanho do parágrafo principal */
+    }
+
+    .title {
+        font-size: 3.5rem; /* Ajusta o tamanho dos títulos das seções */
+    }
+
+    .about .row .content h3 {
+        font-size: 3rem;
+    }
+
+    .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); /* Permite menos colunas em telas muito pequenas */
+    }
+
+    .review .box-container .box p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 450px) { /* Para celulares pequenos */
+    html {
+        font-size: 7px;
+    }
+
+    .home-container .content h3 {
+        font-size: 3.5rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}
