@@ -1,36 +1,36 @@
-# LandPage Café
+# LandPage Café ☕
 
-Bem-vindo ao projeto **LandPage Café**!
+Uma landing page moderna e responsiva para cafeterias, criada para apresentar o cardápio, ambiente e diferenciais do seu café.
 
-## Descrição
-
-Uma landing page moderna para cafeterias, com foco em design responsivo e experiência do usuário.
-
-## Funcionalidades
-
-- Layout responsivo
-- Seção de menu de cafés
-- Formulário de contato
-- Galeria de imagens
-
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Como usar
+## 💻 Como rodar o projeto localmente
 
 1. Clone o repositório:
     ```bash
     git clone https://github.com/seu-usuario/landPage-Cafe.git
     ```
-2. Abra o arquivo `index.html` no seu navegador.
+2. Acesse a pasta do projeto:
+    ```bash
+    cd landPage-Cafe
+    ```
+3. Abra o arquivo `index.html` no seu navegador.
 
-## Contribuição
+## 📸 Screenshots
 
-Sinta-se à vontade para abrir issues ou enviar pull requests!
+![Screenshot da Home](../landPage-Café/assets/Captura%20de%20tela%202025-06-09%20091021.png)
+![Screenshot do Cardápio](../landPage-Café/assets/Captura%20de%20tela%202025-06-09%20091040.png)
 
-## Licença
+*Adicione seus próprios screenshots ou GIFs na pasta `assets` e atualize os caminhos acima.*
 
-Este projeto está sob a licença MIT.
+## 🌐 Link para o projeto online
+
+Acesse a landing page em: [https://seu-usuario.github.io/landPage-Cafe/](https://seu-usuario.github.io/landPage-Cafe/)
+
+---
+
+Sinta-se à vontade para contribuir ou sugerir melhorias!
